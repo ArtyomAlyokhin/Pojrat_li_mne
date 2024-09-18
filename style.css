@@ -92,7 +92,7 @@ h6 {
 
 
 body {
-    background-image: url(/img//bg.jpeg);
+    background-image: url(img//bg.jpeg);
     background-position: center;
     display: flex;
     flex-direction: column;
