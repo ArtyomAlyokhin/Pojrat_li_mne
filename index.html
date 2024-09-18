@@ -37,10 +37,10 @@
                 <div class="block-gifs">
 
                     <div class="block-gifs block-one">
-                        <img src="/img/angr.png" alt="">
+                        <img src="Pojrat_li_mne/img/angr.png" alt="">
                     </div>
                     <div class="block-gifs block-two">
-                        <img src="/img/dev.png" alt="">
+                        <img src="Pojrat_li_mne/img/dev.png" alt="">
                     </div>
                 </div>
 
@@ -68,14 +68,14 @@
             loadingImage.className = 'loading-image';
             loadingImage.width = 100;
             loadingImage.height = 100;
-            loadingImage.src = '/img/burg.webp';
+            loadingImage.src = 'Pojrat_li_mne/img/burg.webp';
             loadingImage.alt = 'Загрузка...';
             responseBlock.appendChild(loadingImage);
             loadingImage.style.display = 'block';
 
 
-            gifBlock.src = '/img/dev.png'
-            gifBlockOne.src = '/img/angr.png'
+            gifBlock.src = 'Pojrat_li_mne/img/dev.png'
+            gifBlockOne.src = 'Pojrat_li_mne/img/angr.png'
 
             setTimeout(() => {
 
@@ -84,12 +84,12 @@
 
                 if (result === 1) {
                     responseBlock.textContent = 'ДА!)';
-                    gifBlock.src = '/img/schnapi-dancing-cat.gif';
-                    gifBlockOne.src = '/img/cat-dancing.gif';
+                    gifBlock.src = 'Pojrat_li_mne/img/schnapi-dancing-cat.gif';
+                    gifBlockOne.src = 'Pojrat_li_mne/img/cat-dancing.gif';
                 } else if (result === 2) {
                     responseBlock.textContent = 'НЕТ!(';
-                    gifBlock.src = '/img/peach-cat-crying-peach-goma.gif';
-                    gifBlockOne.src = '/img/crying-cat.gif';
+                    gifBlock.src = 'Pojrat_li_mne/img/peach-cat-crying-peach-goma.gif';
+                    gifBlockOne.src = 'Pojrat_li_mne/img/crying-cat.gif';
                 }
             }, 3000);
 
